@@ -24,3 +24,18 @@
 .margin-top {
 margin-top: 41px;
 }
+
+input[type=email].validate+label {
+width: 0;
+}
+
+.font-ico {
+  font-size: 2em;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-google-plus-g {
+  color:#db4437; 
+}
