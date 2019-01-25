@@ -14,9 +14,9 @@ class Login extends Component {
 </Col>
 <Row >
 <Col l={12} className="center-align">
-<h2>Inicia Sesión o Registrate</h2>
+<h4>Inicia Sesión</h4>
 </Col>
-<Col l={4} offset ="l2" className="center-align">
+<Col l={4} offset ="l4" className="center-align">
 <SignIn/>
 </Col>
 
