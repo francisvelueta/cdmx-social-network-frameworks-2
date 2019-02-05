@@ -14,8 +14,8 @@ class SignIn extends Component {
 
       <a className="waves-effect waves-light btn light-blue darken-4 margin-btn-b"><i  className="fab fa-facebook-f font-ico"></i>acebook</a>
 
-      <a className="waves-effect waves-light btn red darken-4 "><i  className="fab fa-google font-ico"></i>oogle</a>
-      <div className = ' btn-mar'>¿Aún no te has registrado?</div>
+      <a className="waves-effect waves-light btn red darken-4 margin-b"><i  className="fab fa-google font-ico"></i>oogle</a>
+      <div className = ''>¿Aún no te has registrado?</div>
       </Col>
       </Row>
     );
