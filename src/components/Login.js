@@ -9,14 +9,14 @@ class Login extends Component {
     return (
 <div>
 <Row>
-  <Col l={12}  className="margin-top center-align">
+  <Col l={12} s={12}  className="margin-top center-align">
   <img className="responsive-img App-logo" src={logo}  alt="logo" />
 </Col>
 <Row >
-<Col l={12} className="center-align">
+<Col l={12} s={12} className="center-align">
 <h4 className="almost-black">Inicia Sesión</h4>
 </Col>
-<Col l={4} offset ="l4" className="center-align">
+<Col l={4} s={12}  offset ="l4" className="center-align">
 <SignIn/>
 </Col>
 </Row>
