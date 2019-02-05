@@ -20,9 +20,11 @@
     transform: rotate(360deg);
   }
 }
-
+.almost-black {
+  color: #47525E;
+}
 .margin-top {
-margin-top: 41px;
+margin-top: 38px;
 }
 
 input[type=email].validate+label {
