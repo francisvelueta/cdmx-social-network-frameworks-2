@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import { Row, Col, Input, Button } from 'react-materialize';
 
 import logo from './../assets/logo.jpg';
+<<<<<<< HEAD
 
+=======
+import SignIn from './SignIn';
+>>>>>>> a59e14a86efa07cea3b9f1d828212b1941f873f0
 
 class Login extends Component {
   render() {
