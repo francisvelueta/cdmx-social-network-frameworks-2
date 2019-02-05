@@ -8,11 +8,14 @@ class SignIn extends Component {
       <Col l={12} >
       <Input type="email" label="Email" validate l={12} />
       <Input type="password" label="Password" l={12}  />
-      <Button className="amber darken-1" waves='red'>Entrar</Button>
+      <Button className="amber darken-2" waves='red'>Entrar</Button>
       </Col>
       <Col l={8} offset="l2" className="margin-top">
-      <Button ><i  className="fab fa-facebook-f font-ico"></i>acebook</Button>
-      <i  className="right fab fa-google-plus-g font-ico"></i>
+
+      <a className="waves-effect waves-light btn light-blue darken-4 margin-btn-b"><i  className="fab fa-facebook-f font-ico"></i>acebook</a>
+
+      <a className="waves-effect waves-light btn red darken-4 "><i  className="fab fa-google font-ico"></i>oogle</a>
+      <div className = ' btn-mar'>¿Aún no te has registrado?</div>
       </Col>
       </Row>
     );

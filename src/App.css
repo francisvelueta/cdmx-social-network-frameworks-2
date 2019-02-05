@@ -33,9 +33,22 @@ width: 0;
   font-size: 2em;
 }
 
-/* .fa-facebook-f {
-  color: #4267b2;
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: #ffa726;
+  box-shadow: none;
+
 }
-.fa-google-plus-g {
-  color:#db4437;
-} */
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #ffa726;
+}
+
+
+.margin-btn-b {
+margin-bottom: 20px;
+}
