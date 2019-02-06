@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
-import SignIn from './components/auth/SignIn';
+import Navigate from './components/layout/Navigate';
+import Dashboard from './components/dashboard/Dashboard';
+
 class App extends Component {
   render() {
     return (
-      <div className="container App">
+      <BrowserRouter>
+      <div className="App">
         <header className="App-header">
-          <SignIn></SignIn>
+          <Navigate/>
         </header>
+        <Switch>
+          <Route path='/' component ={ Dashboard }/>
+        </Switch>
       </div>
+      </BrowserRouter>
     );
   }
 }
