@@ -9,7 +9,7 @@ const Navigate =() => {
     <div>
     <Navbar brand='Mexican Food Lovers' right className="red lighten-1 hide-on-small-only">
     <SignInLink/>
-    <SignInOutLink/>
+  
   </Navbar>
   </div>
 

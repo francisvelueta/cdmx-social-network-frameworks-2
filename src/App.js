@@ -11,9 +11,7 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
-        <header className="App-header">
           <Navigate/>
-        </header>
         <Switch>
           <Route path='/' component ={ Dashboard }/>
         </Switch>

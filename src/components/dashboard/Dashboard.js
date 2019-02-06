@@ -12,6 +12,7 @@ class Dashboard extends Component {
       <RecipeList/>
       </Col>
       <Col l={5} offset="l1" s={12}>
+      Notificaciones
       </Col>
       </Row>
 
