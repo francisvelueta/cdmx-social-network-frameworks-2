@@ -7,6 +7,8 @@ import Navigate from './components/layout/Navigate';
 import Dashboard from './components/dashboard/Dashboard';
 import RecipeDetails from './components/recipes/RecipeDetails';
 import SignIn from './components/auth/SignIn';
+import SignUp from './components/auth/SignUp';
+import CreateRecipe from './components/recipes/CreateRecipe';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
           <Route exact path='/' component ={ Dashboard }/>
           <Route path='/recipes/:id' component ={ RecipeDetails }/>
           <Route path='/signin' component ={ SignIn }/>
+          <Route path='/signup' component ={ SignUp }/>
+          <Route path='/create' component ={ CreateRecipe }/>
         </Switch>
       </div>
       </BrowserRouter>

@@ -58,3 +58,7 @@ margin-bottom: 20px;
 .margin-b {
 margin-bottom: 15px;
 }
+
+.file-field .btn {
+  background-color: #ffa726;
+}

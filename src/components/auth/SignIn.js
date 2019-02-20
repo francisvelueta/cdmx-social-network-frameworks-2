@@ -11,11 +11,12 @@ class SignIn extends Component {
   }
 
   handleChange = e => {
-    console.log(e);
+    this.setState({[e.target.id]: e.target.value});
   }
 
   handleSubmit=(e) => {
-    console.log(e);
+    e.preventDefault();
+    console.log(this.state);
   }
 
 
@@ -34,7 +35,7 @@ class SignIn extends Component {
   <Row >
 
   <Col l={12} s={12} >
-  <form>
+  <form onSubmit = {this.handleSubmit}>
   <Input type="email"  id="email" label="Email" validate l={12} s={12} onChange={this.handleChange}  />
   <Input type="password" id="password" label="Password" l={12} s={12}  onChange={this.handleChange}/>
   <Button s={12} className="amber darken-2" waves='red'>Entrar</Button>
@@ -42,10 +43,10 @@ class SignIn extends Component {
   </Col>
   <Row>
   <Col l={8}  offset="l2" s={12} className="margin-top">
-  <a className="waves-effect waves-light btn light-blue darken-4 margin-btn-b"><i  className="fab fa-facebook-f font-ico"></i>acebook</a>
+  <a href ="/" className="waves-effect waves-light btn light-blue darken-4 margin-btn-b"><i  className="fab fa-facebook-f font-ico"></i>acebook</a>
   </Col>
   <Col l={8}  offset="l2" s={12} >
-    <a className="waves-effect waves-light btn red darken-4 margin-b"><i  className="fab fa-google font-ico"></i>oogle</a>
+    <a href ="/"  className="waves-effect waves-light btn red darken-4 margin-b"><i  className="fab fa-google font-ico"></i>oogle</a>
   </Col>
   <Col l={8}  offset="l2" s={12} >
   <div className = ''>¿Aún no te has registrado?</div>

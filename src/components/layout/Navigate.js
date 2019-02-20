@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar} from 'react-materialize';
 import SignInLink from './SignInLink';
-import SignInOutLink from './SignInOutLink';
+// import SignInOutLink from './SignInOutLink';
 
 
 const Navigate =() => {
@@ -9,7 +9,7 @@ const Navigate =() => {
     <div>
     <Navbar brand='Mexican Food Lovers' right className="red lighten-1 hide-on-small-only">
     <SignInLink/>
-  
+
   </Navbar>
   </div>
 

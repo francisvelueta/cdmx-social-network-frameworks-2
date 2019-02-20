@@ -10,7 +10,7 @@ const RecipeSummary =() => {
         reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
           <p>Posteado por Francis Velueta</p>
             <p className="grey-text">3rd September, 2am</p>
-            <p><a href="#">Comentarios</a></p>
+            <p><a href="/">Comentarios</a></p>
     </Card>
 
   );

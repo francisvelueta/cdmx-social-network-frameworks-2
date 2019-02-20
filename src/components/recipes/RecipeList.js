@@ -1,6 +1,4 @@
 import React from 'react';
-import image from './../../assets/office.jpg'
-import {Row, Col, Card, CardTitle} from 'react-materialize';
 
 import RecipeSummary from './RecipeSummary';
 
