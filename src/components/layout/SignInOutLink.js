@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavItem} from 'react-materialize'
+import { NavItem } from 'react-materialize'
 
 
 const SignInOutLink =() => {
   return(
     <div>
-    <NavItem href="/">Registrarse</NavItem>
-    <NavItem href="/">Entrar</NavItem>
+    <NavItem href="/signup">Registrarse</NavItem>
+    <NavItem href="/signin">Entrar</NavItem>
   </div>
 
   );

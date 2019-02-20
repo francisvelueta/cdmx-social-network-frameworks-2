@@ -10,9 +10,12 @@ import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import CreateRecipe from './components/recipes/CreateRecipe';
 
+import { Provider } from 'react-redux';
+import store from './store';
 class App extends Component {
   render() {
     return (
+      <Provider store = {store}>
       <BrowserRouter>
       <div className="App">
           <Navigate/>
@@ -25,6 +28,7 @@ class App extends Component {
         </Switch>
       </div>
       </BrowserRouter>
+      </Provider>
     );
   }
 }
