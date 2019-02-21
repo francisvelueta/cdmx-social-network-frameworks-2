@@ -4,6 +4,21 @@ import { Row, Col, Input, Button } from 'react-materialize';
 import logo from './../../assets/logo.jpg';
 
 class SignIn extends Component {
+
+  state = {
+    email: '',
+    password: ''
+  }
+
+  handleChange = e => {
+    console.log(e);
+  }
+
+  handleSubmit=(e) => {
+    console.log(e);
+  }
+
+
   render() {
     return (
 <div>
@@ -17,10 +32,13 @@ class SignIn extends Component {
 </Col>
 <Col l={4} s={12}  offset ="l4" className="center-align">
   <Row >
+
   <Col l={12} s={12} >
-  <Input type="email" label="Email" validate l={12} s={12}  />
-  <Input type="password" label="Password" l={12} s={12}  />
+  <form>
+  <Input type="email"  id="email" label="Email" validate l={12} s={12} onChange={this.handleChange}  />
+  <Input type="password" id="password" label="Password" l={12} s={12}  onChange={this.handleChange}/>
   <Button s={12} className="amber darken-2" waves='red'>Entrar</Button>
+  </form>
   </Col>
   <Row>
   <Col l={8}  offset="l2" s={12} className="margin-top">

@@ -8,7 +8,7 @@ const SignInLink =() => {
     <div>
     <NavItem href="/">Publicar</NavItem>
     <NavItem >Salir</NavItem>
-    <NavItem ><Link to="/" className="btn btn-floating light-green darken-4">FV</Link></NavItem>
+    <Link to="/" className="btn btn-floating light-green darken-4">FV</Link>
   </div>
 
   );

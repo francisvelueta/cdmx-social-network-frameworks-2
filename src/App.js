@@ -5,6 +5,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Navigate from './components/layout/Navigate';
 import Dashboard from './components/dashboard/Dashboard';
+import RecipeDetails from './components/recipes/RecipeDetails';
+import SignIn from './components/auth/SignIn';
 
 class App extends Component {
   render() {
@@ -13,7 +15,9 @@ class App extends Component {
       <div className="App">
           <Navigate/>
         <Switch>
-          <Route path='/' component ={ Dashboard }/>
+          <Route exact path='/' component ={ Dashboard }/>
+          <Route path='/recipes/:id' component ={ RecipeDetails }/>
+          <Route path='/signin' component ={ SignIn }/>
         </Switch>
       </div>
       </BrowserRouter>
